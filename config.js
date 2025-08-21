@@ -12,7 +12,7 @@ const CONFIG = {
 
 	// General
 	name: 'John',
-	imageBackground: false,
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -135,24 +135,28 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'search',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Google',
+					link: 'https://www.google.com',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Shodan',
+					link: 'https://www.shodan.io',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Censys',
+					link: 'https://search.censys.io',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'VirusTotal',
+					link: 'https://www.virustotal.com/gui/home/search'
+				},
+				{
+					name: 'Have I Been Pwned',
+					link: 'https://haveibeenpwned.com',
 				},
 			],
 		},
