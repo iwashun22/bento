@@ -146,10 +146,10 @@ const CONFIG = {
 					name: 'Shodan',
 					link: 'https://www.shodan.io',
 				},
-				{
-					name: 'Censys',
-					link: 'https://search.censys.io',
-				},
+				// {
+				// 	name: 'Censys',
+				// 	link: 'https://search.censys.io',
+				// },
 				{
 					name: 'VirusTotal',
 					link: 'https://www.virustotal.com/gui/home/search'
